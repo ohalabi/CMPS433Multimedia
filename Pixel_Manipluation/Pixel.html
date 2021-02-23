@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Manipulation Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<form>
+    <input type="radio" id="original" name="color" value="original" checked>
+    <label for="original">Original</label>
+
+    <input type="radio" id="white" name="color" value="white" >
+    <label for="white">White</label>
+
+    <input type="radio" id="grayscale" name="color" value="grayscale" >
+    <label for="grayscale">GrayScale</label>
+
+    <input type="radio" id="invert" name="color" value="invert" >
+    <label for="invert">Invert</label>
+
+    <input type="radio" id="threshold" name="color" value="threshold" >
+    <label for="threshold">Threshold</label>
+
+</form>
+
+<script src="pixel_manip.js"></script>
+</body>
+</html>
