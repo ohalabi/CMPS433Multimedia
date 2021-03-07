@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    width: 650px;
+}
+.column{
+    max-width: 100%;
+    flex: 0 0 650px;
+}
+.video, .canvas{
+    max-width: 100%;
+}
+.canvas{
+    border: 2px solid red;
+}
