@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Oscillator</title>
+</head>
+<body>
+<select id="wave">
+    <option value="sine">Since</option>
+    <option value="triangle">Triangle</option>
+    <option value="square">Square</option>
+    <option value="sawtooth">Sawtooth</option>
+</select>
+
+<input id="volume" type="range" min="0" max="100" value="0">
+<label for="volume">VOL</label>
+
+<input id="frequency" type="range" min="110" max="2880" value="440">
+<label for="frequency">FRQ</label>
+
+<script type="text/javascript" src="audioOsc.js"></script>
+
+</body>
+</html>

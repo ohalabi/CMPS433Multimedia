@@ -25,7 +25,7 @@ function init() {
         // Play video
         video.play();
 
-        drawFrame(video);
+       drawFrame(video);
     });
 }
 
