@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Basics</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<section class="master-controls">
+    <input type="range" id="volume" class="control-volume" min="0" max="2" value="1"  step="0.01"  />
+<!--    <datalist id="gain-vals">-->
+<!--        <option value="0" label="min">-->
+<!--        <option value="2" label="max">-->
+<!--    </datalist>-->
+    <label for="volume">VOL</label>
+
+    <input type="range" id="panner" class="control-panner" min="-1" max="1" value="0" step="0.01"  />
+<!--    <datalist id="pan-vals">-->
+<!--        <option value="-1" label="left">-->
+<!--        <option value="1" label="right">-->
+<!--    </datalist>-->
+    <label for="panner">PAN</label>
+
+    <button id="PlayButton" data-playing="false" >
+        <span>Play/Pause</span>
+    </button>
+</section>
+
+<audio src="outfoxing.mp3" crossorigin="anonymous" ></audio>
+
+<script type="text/javascript" src="audioBasic.js">
+
+</script>
+</body>
+</html>
